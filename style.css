@@ -67,6 +67,22 @@ body {
     font-size: 30px;
 }
 
+
+@font-face {
+    font-family: LEMONMILK-Bold;
+    src: url(fonts/LEMONMILK-Bold.otf);
+}
+
+.lemon2 {
+    font-family: LEMONMILK-Bold;
+    font-size: 20px;
+    color: #00aaff;
+
+}
+
+
+
+
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -83,5 +99,17 @@ body {
 .button:hover {
   background-color: #092470;
   transform: translateY(5px);
+  transition: transform 0.3s ease;
+}
+
+a[href] {
+  color: #00aaff;
+  transition: transform 0.3s ease;
+}
+
+
+a[href]:hover .lemon2 {
+  color: #b6caff;
+  transform: translatey(5px);
   transition: transform 0.3s ease;
 }
